@@ -1,0 +1,26 @@
+[
+{
+	"prop1" : "prop1 value1",
+	"prop2" : "prop2 value1"
+},
+{
+	"prop1" : "prop1 value2",
+	"prop2" : "prop2 value2"
+},
+{
+	"prop1" : "prop1 value3",
+	"prop2" : "prop2 value3"
+},
+{
+	"prop1" : "prop1 value4",
+	"prop2" : "prop2 value4"
+},
+{
+	"prop1" : "prop1 value5",
+	"prop2" : "prop2 value5"
+},
+{
+	"prop1" : "prop1 value6",
+	"prop2" : "prop2 value6"
+}
+]
