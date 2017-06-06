@@ -9,3 +9,6 @@ RemoteSystemsTempFiles/
 */.mvn/*
 */target/*
 */.settings/*
+/.idea
+/CDCService1/*.iml
+/CDCService2/*.iml

@@ -78,6 +78,11 @@
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-contract-maven-plugin</artifactId>
 				<version>1.1.1.RELEASE</version>
+				<extensions>true</extensions>
+				<configuration>
+					<!-- Provide the base class for your auto-generated tests -->
+					<baseClassForTests>com.jcommerce.cdcpoc.CDCServer.ContractVerifierBase</baseClassForTests>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
