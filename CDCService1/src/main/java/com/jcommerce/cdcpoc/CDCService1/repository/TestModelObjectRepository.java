@@ -9,7 +9,7 @@ import com.jcommerce.cdcpoc.CDCService1.model.TestModelObject;
 
 @RepositoryRestResource
 @ExposesResourceFor(TestModelObject.class)
-@RequestMapping("/testModelObjects")
+//@RequestMapping("/testModelObjects")
 public interface TestModelObjectRepository extends MongoRepository<TestModelObject, String> {
 
 }

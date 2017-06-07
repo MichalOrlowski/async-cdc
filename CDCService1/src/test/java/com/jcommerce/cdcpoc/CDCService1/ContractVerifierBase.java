@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import com.jayway.restassured.module.mockmvc.RestAssuredMockMvc;
-import com.jcommerce.cdcpoc.CDCService1.repository.TestModelObjectRepository;
+import com.jcommerce.cdcpoc.CDCService1.controller.TestModelObjectController;
 import com.jcommerce.cdcpoc.CDCService1.model.TestModelObject;
 
 @RunWith(SpringRunner.class)
@@ -17,7 +17,7 @@ import com.jcommerce.cdcpoc.CDCService1.model.TestModelObject;
 public class ContractVerifierBase {
 
    @Autowired
-   private TestModelObjectRepository tmos;
+   private TestModelObjectController tmos;
 
    @Before
    public void setUp() throws Exception {
