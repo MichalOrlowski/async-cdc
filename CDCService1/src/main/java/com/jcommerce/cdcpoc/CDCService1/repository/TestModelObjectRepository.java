@@ -3,7 +3,6 @@ package com.jcommerce.cdcpoc.CDCService1.repository;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.hateoas.ExposesResourceFor;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.jcommerce.cdcpoc.CDCService1.model.TestModelObject;
 
